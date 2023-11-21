@@ -11,13 +11,14 @@
 
 - A xampp php mappáját (....xampp\php) a vágólapra másoljuk
 - Belépünk a **Vezérlőpult**ba
-- Jobboldalt felül a keresőbe beírjuk **környezeti**
-- A Környezeti változók beállítása
-- Path elemet kijelölni a listáról
+- Jobboldalt felül a keresőbe beírjuk: **környezeti**
+- A Környezeti változók beállítása linkre kattintunk
+- A felhasználó környezeti változóinak szerkesztése ***[cím pontosítása szükséges]*** linkre kattintunk
+- Path elemet kijelöljük a fenti listáról
 - Szerkesztés gomb
-- Új
+- A felugró ablakban az **Új** gombra kattintunk
 - Beillesztjük a vágólapról a php mappa útvonalát
-- Mentés, OK vagy bezárás a vezérőpult ablakaira
+- Mentés, OK vagy bezárás a Vezérőpult ablakaira
 
 ## Composer letöltése, beállítása
 
@@ -31,7 +32,9 @@
 echo @php "%~dp0composer.phar" %* > composer.cmd
 ```
 
-Ezzel kész is a composer.
+Ezzel kész is a Xampp és a Composer beállítása.  
+
+***!A fenti lépéseket nem kell minden projekt létrehozásakor külön megcsinálni.***
 
 ## Laravel projekt készítése composerrel
 
@@ -68,5 +71,3 @@ composer install
 ```
 @php artisan key:generate --ansi
 ```
-
-https://getcomposer.org/Composer-Setup.exe
