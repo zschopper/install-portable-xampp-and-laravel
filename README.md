@@ -54,7 +54,13 @@ git clone <repository url>
 ```
 
 - A klónozás elkészülte után be kell lépni a projekt mappába
-- az .env.example fájlt át kell másolni .env néven. Intézőből Ctrl+C/Ctrl+V után átnevezni a fájlt, vagy parancssorból a következő paranccsal:
+- az .env.example fájlt át kell másolni .env néven. Intézőből Ctrl+C/Ctrl+V után átnevezni a fájlt, vagy parancssorból a következő parancs egyikével:
+
+```
+composer run-script post-root-package-install
+```
+
+vagy:
 
 ```
 copy .env.example .env
